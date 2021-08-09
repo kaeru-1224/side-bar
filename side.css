@@ -15,22 +15,25 @@ button{
     border: none;
     background-color: #E6E4D7;
 }
-.slide-bottom {
-	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+.slide-right {
+    position: relative;
+
+	
+	        animation: slide-right 0.5s linear;
 }
-@keyframes slide-bottom {
+
+@keyframes slide-right {
     0% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
+      left: 0px;
+    }
+    50% {
+    left: 5px;
     }
     100% {
-      -webkit-transform: translateY(5px);
-              transform: translateY(5px);
+        left: 0px;
     }
   }
   
-
 @media screen and (max-width:700px) {
     .side-main{ width: 100%;  }}
 

@@ -14,16 +14,19 @@ navbtn.addEventListener('click',showNav)*/
 
 const navbtn=document.querySelector(".nav-button");
 const closebtn =document.querySelector(".side-btn")
-const HIDDEN=document.querySelector(".hidden")
 const side = document.querySelector(".side-main")
 
 function showSide(){
+    /*
     let result= side.classList.contains("hidden")
        if(result){
+        side.classList.add("slide-right")
            side.classList.remove("hidden")
-           side.classList.add("slide-bottom")
+       
        }else{ side.classList.add("hidden")
-       side.classList.remove("slide-bottom")}}
+    side.classList.remove("slide-right")}*/
+side.classList.toggle("hidden")
+side.classList.toggle("slide-right")}
 
 
 navbtn.addEventListener('mouseenter',showSide)
