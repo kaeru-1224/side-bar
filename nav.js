@@ -21,10 +21,11 @@ function showSide(){
     let result= side.classList.contains("hidden")
        if(result){
            side.classList.remove("hidden")
-       }else{ side.classList.add("hidden")}
+           side.classList.add("slide-bottom")
+       }else{ side.classList.add("hidden")
+       side.classList.remove("slide-bottom")}}
 
-
-}
 
 navbtn.addEventListener('mouseenter',showSide)
+closebtn.addEventListener('click',showSide)
 

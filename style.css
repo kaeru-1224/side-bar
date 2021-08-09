@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
  body{background-color: #F5F5F5;} 
- *{padding:0px;}    
+ *{padding:0px;}
+ body{background-color: #ABBBC7;}    
 .nav-center{
     background-color: #C4DED7;
     display: flex;
@@ -40,3 +41,4 @@ a{
 .hidden{
     display: none;
 }
+

@@ -1,0 +1,38 @@
+.side-main{
+    width: 30%;
+    background-color: #F5F5F5;
+}
+
+.side-logo{
+    font-size: 20px;
+    text-align: right;
+    font-family: 'Archivo Black', sans-serif;
+    flex-wrap: nowrap;
+    background-color: #E6E4D7;
+}
+button{
+    background-color: none;
+    border: none;
+    background-color: #E6E4D7;
+}
+.slide-bottom {
+	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(5px);
+              transform: translateY(5px);
+    }
+  }
+  
+
+@media screen and (max-width:700px) {
+    .side-main{ width: 100%;  }}
+
+
+
